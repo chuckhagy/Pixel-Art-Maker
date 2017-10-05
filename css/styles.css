@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-shadow: 3px 3px 5px black;
+}
+h1 {
+  box-shadow: none;
+  font-size: 300%;
+  font-family: "Gloria Hallelujah";
+}
+body {
+  background-image: url('../img/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  text-align: center;
+}
+
+#containerCanvas {
+  width: 1000px;
+  margin: 0 auto 10px auto;
+  padding: 15px;
+  background-color: black;
+  overflow: auto;
+}
+
+.gridLines {
+  float: left;
+  border: 1px solid rgb(255, 255, 255);
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  box-shadow: none;
+}
+
+#containerPallet {
+  margin: 10px auto;
+  background-color: lightgrey;
+  width: 450px;
+  padding: 15px;
+  display: inline-block;
+}
+
+#currentHolder {
+  display: inline-block;
+  margin: 5px 20px 0 auto;
+  background-color: rgb(224, 224, 224);
+  width: 150px;
+  padding: 15px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px;
+  display: inline-block;
+}
+#currentColor {
+  width: 124px;
+  height: 124px;
+}
+
+#reset {
+  display: inline-block;
+  margin: 10px auto 0 20px;
+  background-color: rgb(224, 224, 224);
+  width: 150px;
+  height: 150px;
+  padding: 15px;
+  line-height: 150px;
+  border-radius: 50%;
+  vertical-align: top;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: lightgrey;
+  background-color: rgb(173, 93, 110);
+  transition: background-color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+#reset:hover {
+  color: white;
+  background-color: rgb(183, 103, 120);
+}
